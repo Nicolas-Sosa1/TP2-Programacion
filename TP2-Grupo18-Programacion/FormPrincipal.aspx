@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Pagina Principal del TP2-Programacion 3<br />
+            <br />
             <asp:Button ID="btnEjercicio1" runat="server" OnClick="btnEjercicio1_Click" Text="Ejercicio1" />
 &nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Ejercicio2" />
