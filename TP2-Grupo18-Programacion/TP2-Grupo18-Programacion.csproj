@@ -67,17 +67,57 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
     <Content Include="ejercicio1.aspx" />
+    <Content Include="ejercicio2.aspx" />
+    <Content Include="ejercicio3.aspx" />
+    <Content Include="ejercicio4.aspx" />
+    <Content Include="ejercicio5.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="FormPrincipal.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ejercicio1.aspx.cs">
       <DependentUpon>ejercicio1.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ejercicio1.aspx.designer.cs">
       <DependentUpon>ejercicio1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio2.aspx.cs">
+      <DependentUpon>ejercicio2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio2.aspx.designer.cs">
+      <DependentUpon>ejercicio2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio3.aspx.cs">
+      <DependentUpon>ejercicio3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio3.aspx.designer.cs">
+      <DependentUpon>ejercicio3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio4.aspx.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio4.aspx.designer.cs">
+      <DependentUpon>ejercicio4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ejercicio5.aspx.cs">
+      <DependentUpon>ejercicio5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ejercicio5.aspx.designer.cs">
+      <DependentUpon>ejercicio5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormPrincipal.aspx.cs">
+      <DependentUpon>FormPrincipal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.aspx.designer.cs">
+      <DependentUpon>FormPrincipal.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

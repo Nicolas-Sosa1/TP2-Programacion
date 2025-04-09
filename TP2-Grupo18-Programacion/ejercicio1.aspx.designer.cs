@@ -11,7 +11,7 @@ namespace TP2_Grupo18_Programacion
 {
 
 
-    public partial class WebForm1
+    public partial class ejercicio1
     {
 
         /// <summary>
@@ -22,5 +22,23 @@ namespace TP2_Grupo18_Programacion
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+
+        /// <summary>
+        /// Control txtProducto1.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtProducto1;
+
+        /// <summary>
+        /// Control btnVolverPrincipal.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnVolverPrincipal;
     }
 }
