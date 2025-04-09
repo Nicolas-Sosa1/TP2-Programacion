@@ -12,7 +12,9 @@
         <div>
             Ingrese el nombre del producto:&nbsp;&nbsp;
             <asp:TextBox ID="txtProducto1" runat="server"></asp:TextBox>
-            &nbsp;<br />
+            Cantidad:&nbsp;&nbsp;
+            &nbsp;<asp:TextBox ID="txtCantidad1" runat="server"></asp:TextBox>
+            <br />
             <br />
             Ingrese el nombre del producto:&nbsp;&nbsp;
             <asp:TextBox ID="txtProducto2" runat="server"></asp:TextBox>
