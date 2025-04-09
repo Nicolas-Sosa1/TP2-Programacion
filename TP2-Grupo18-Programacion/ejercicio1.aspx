@@ -15,7 +15,7 @@
             &nbsp;<br />
             <br />
             Ingrese el nombre del producto:&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtProducto2" runat="server"></asp:TextBox>
             <br />
             <br />
             <br />
