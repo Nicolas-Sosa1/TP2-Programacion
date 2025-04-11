@@ -23,8 +23,10 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="btnGenerarTabla" runat="server" Height="25px" Text="Generar Tabla" Width="132px" />
+            <asp:Button ID="btnGenerarTabla" runat="server" Height="25px" Text="Generar Tabla" Width="132px" OnClick="btnGenerarTabla_Click" />
             <br />
+            <br />
+            <asp:Label ID="lblTabla" runat="server"></asp:Label>
             <br />
             <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />

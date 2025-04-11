@@ -18,5 +18,20 @@ namespace TP2_Grupo18_Programacion
         {
             Response.Redirect("FormPrincipal.aspx");
         }
+
+        protected void btnGenerarTabla_Click(object sender, EventArgs e)
+        {
+            String tabla = "<table border = '1'>";
+            tabla += "<tr><th>Producto</th><th>Cantidad</th></th>";
+            for (int i = 1; i <= 3; i++) {
+                
+                tabla += "<tr>";
+                tabla += "<td> n/a </td>"; 
+                tabla += "<td> n/a </td>";
+                tabla += "</tr>";
+            }
+            tabla += "</table>";
+            lblTabla.Text = tabla;
+        }
     }
 }
