@@ -51,6 +51,15 @@ namespace TP2_Grupo18_Programacion
         protected global::System.Web.UI.WebControls.LinkButton lnVerde;
 
         /// <summary>
+        /// Control lblTexto.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblTexto;
+
+        /// <summary>
         /// Control btnVolverPrincipal.
         /// </summary>
         /// <remarks>

@@ -18,5 +18,10 @@ namespace TP2_Grupo18_Programacion
         {
             Response.Redirect("FormPrincipal.aspx");
         }
+
+        protected void lnRojo_Click(object sender, EventArgs e)
+        {
+            lblTexto.ForeColor = System.Drawing.Color.Red;
+        }
     }
 }

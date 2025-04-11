@@ -22,7 +22,26 @@
             <asp:DropDownList ID="ddlCiudad" runat="server"></asp:DropDownList>
             <br />
             <br />
+            Temas:<br />
+            <asp:CheckBoxList ID="cblTemas" runat="server">
+                <asp:ListItem>Ciencias</asp:ListItem>
+                <asp:ListItem>Literatura</asp:ListItem>
+                <asp:ListItem>Historia</asp:ListItem>
+            </asp:CheckBoxList>
+            <br />
+            <br />
+            <br />
+            <asp:Button ID="btnEnviar" runat="server" Text="Ver resumen" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblError" runat="server"></asp:Label>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
+            
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             
         </div>
     </form>
