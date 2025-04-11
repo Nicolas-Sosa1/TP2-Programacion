@@ -59,6 +59,19 @@ namespace TP2_Grupo18_Programacion
                 return;
             }
 
+            // Generar tabla
+            String tabla = "<table border = '1'>";
+            tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
+            for (int i = 1; i <= 3; i++)
+            {
+                tabla += "<tr>";
+                tabla += "<td> n/a </td>";
+                tabla += "<td> n/a </td>";
+                tabla += "</tr>";
+            }
+            tabla += "</table>";
+            lblTabla.Text = tabla;
+
 
         }
     }
