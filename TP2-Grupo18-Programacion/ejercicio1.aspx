@@ -23,6 +23,7 @@
             <br />
             <br />
             <br />
+            <asp:Button ID="btnGenerarTabla" runat="server" Height="25px" Text="Generar Tabla" Width="132px" />
             <br />
             <br />
             <br />
