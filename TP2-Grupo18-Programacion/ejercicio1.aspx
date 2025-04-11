@@ -23,8 +23,13 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="btnGenerarTabla" runat="server" Height="25px" Text="Generar Tabla" Width="132px" />
+            <asp:Button ID="btnGenerarTabla" runat="server" Height="25px" Text="Generar Tabla" Width="132px" OnClick="btnGenerarTabla_Click" />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblError" runat="server"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
+            <br />
+            <asp:Label ID="lblTabla" runat="server"></asp:Label>
             <br />
             <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
