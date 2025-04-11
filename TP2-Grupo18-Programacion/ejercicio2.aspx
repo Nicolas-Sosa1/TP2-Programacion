@@ -18,7 +18,12 @@
             <asp:TextBox ID="txtApellido" runat="server"></asp:TextBox>
             <br />
             <br />
+            Ciudad:&nbsp;&nbsp;
+            <asp:DropDownList ID="ddlCiudad" runat="server"></asp:DropDownList>
+            <br />
+            <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
+            
         </div>
     </form>
 </body>
