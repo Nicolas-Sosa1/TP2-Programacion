@@ -20,6 +20,17 @@ namespace TP2_Grupo18_Programacion
             Response.Redirect("FormPrincipal.aspx");
         }
 
+        private bool NoEsNumero(char c)
+        {
+            //valida que solo sean digitos del 0 al 9
+            return !char.IsDigit(c);
+        }
+        private bool NoEsLetra(char c)
+        {
+            //valida que solo sean letras mayusculas o minusculas
+            return !char.IsLetter(c);
+        }
+
         protected void btnGenerarTabla_Click(object sender, EventArgs e)
         {
             if ((txtProducto1.Text.Trim() == ""
