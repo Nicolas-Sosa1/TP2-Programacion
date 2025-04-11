@@ -14,7 +14,8 @@
             <br />
             <asp:LinkButton ID="lnAzul" runat="server">Azul</asp:LinkButton>
             <br />
-            <br />
+            <asp:LinkButton ID="lnVerde" runat="server">Verde</asp:LinkButton>
+            <br /><br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
         </div>
     </form>
