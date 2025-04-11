@@ -10,6 +10,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            Nombre:&nbsp;
+            <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
+            <br />
+            <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
         </div>
     </form>
