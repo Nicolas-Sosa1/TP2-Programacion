@@ -50,6 +50,16 @@ namespace TP2_Grupo18_Programacion
                 lblTabla.Text = "";
                 return;
             }
+            
+            //Validacion nombre solo letras
+            if (txtProducto1.Text.Any(NoEsLetra) || txtProducto2.Text.Any(NoEsLetra))
+            {
+                lblError.Text = "Los nombres deben contener solo letras.";
+                lblTabla.Text = "";
+                return;
+            }
+
+
         }
     }
 }
