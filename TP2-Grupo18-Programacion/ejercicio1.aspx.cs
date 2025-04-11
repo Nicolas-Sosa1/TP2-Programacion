@@ -42,6 +42,14 @@ namespace TP2_Grupo18_Programacion
                 lblTabla.Text = "";
                 return;
             }
+
+            // Validacion cantidades solo numeros
+            if (txtCantidad1.Text.Any(NoEsNumero) || txtCantidad2.Text.Any(NoEsNumero))
+            {
+                lblError.Text = "Las cantidades deben contener solo números.";
+                lblTabla.Text = "";
+                return;
+            }
         }
     }
 }
