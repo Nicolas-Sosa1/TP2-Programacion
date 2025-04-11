@@ -12,6 +12,7 @@
         <div>
             <asp:LinkButton ID="lnRojo" runat="server">Rojo</asp:LinkButton>
             <br />
+            <asp:LinkButton ID="lnAzul" runat="server">Azul</asp:LinkButton>
             <br />
             <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
