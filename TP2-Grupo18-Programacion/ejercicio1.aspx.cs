@@ -60,15 +60,19 @@ namespace TP2_Grupo18_Programacion
             }
 
             // Generar tabla
+
+            int cantProd1 = int.Parse(txtCantidad1.Text);
+            int cantProd2 = int.Parse(txtCantidad2.Text);
+            int total = cantProd1 + cantProd2;
+            lblError.Text = string.Empty;
+
             String tabla = "<table border = '1'>";
             tabla += "<tr><th>Producto</th><th>Cantidad</th></tr>";
-            for (int i = 1; i <= 3; i++)
-            {
-                tabla += "<tr>";
-                tabla += "<td> n/a </td>";
-                tabla += "<td> n/a </td>";
-                tabla += "</tr>";
-            }
+            
+            tabla += "<tr><td>" + txtProducto1.Text + "</td><td>" + cantProd1 + "</td></tr>";
+            tabla += "<tr><td>" + txtProducto2.Text + "</td><td>" + cantProd2 + "</td></tr>";
+            
+            tabla += "<tr><td>TOTAL</td><td>" + total + "</td></tr>";
             tabla += "</table>";
             lblTabla.Text = tabla;
 
