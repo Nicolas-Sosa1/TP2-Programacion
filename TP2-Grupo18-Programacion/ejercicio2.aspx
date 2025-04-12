@@ -24,9 +24,6 @@
             <br />
             Temas:<br />
             <asp:CheckBoxList ID="cblTemas" runat="server">
-                <asp:ListItem>Ciencias</asp:ListItem>
-                <asp:ListItem>Literatura</asp:ListItem>
-                <asp:ListItem>Historia</asp:ListItem>
             </asp:CheckBoxList>
             <br />
             <br />

@@ -29,8 +29,30 @@ namespace TP2_Grupo18_Programacion
                 ddlCiudad.Items.Add(sanMartin);
                 ddlCiudad.Items.Add(boedo);
 
+                ListItem Ciencias = new ListItem();
+                Ciencias.Text = "Ciencias";
+                Ciencias.Value = "Ciencias";
+
+                ListItem Literatura = new ListItem();
+                Literatura.Text = "Literatura";
+                Literatura.Value = "Literatura";
+
+                ListItem Historia = new ListItem();
+                Historia.Text = "Historia";
+                Historia.Value = "Historia";
+
+                cblTemas.Items.Add(Ciencias);
+                cblTemas.Items.Add(Literatura);
+                cblTemas.Items.Add(Historia);
+
             }
         }
+        private bool NoEsLetra(char c)
+        {
+            //se valida que solo sean letras mayusculas o minusculas
+            return !char.IsLetter(c);
+        }
+
 
         protected void btnVolverPrincipal_Click(object sender, EventArgs e)
         {
