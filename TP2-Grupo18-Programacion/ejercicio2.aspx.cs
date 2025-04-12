@@ -11,7 +11,25 @@ namespace TP2_Grupo18_Programacion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (IsPostBack == false)
+            {
+                ListItem gralPacheco = new ListItem();
+                gralPacheco.Text = "Gral. Pacheco";
+                gralPacheco.Value = "Norte";
 
+                ListItem sanMartin = new ListItem();
+                sanMartin.Text = "San Miguel";
+                sanMartin.Value = "Oeste";
+
+                ListItem boedo = new ListItem();
+                boedo.Text = "Boedo";
+                boedo.Value = "Sur";
+
+                ddlCiudad.Items.Add(gralPacheco);
+                ddlCiudad.Items.Add(sanMartin);
+                ddlCiudad.Items.Add(boedo);
+
+            }
         }
 
         protected void btnVolverPrincipal_Click(object sender, EventArgs e)
