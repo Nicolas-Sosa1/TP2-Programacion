@@ -10,6 +10,19 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            ELIJA SU CONFIGURACION:<br />
+            <br />
+            Seleccione la cantidad de memoria:<br />
+            <asp:DropDownList ID="ddlMemoria" runat="server">
+            </asp:DropDownList>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
             <asp:Button ID="btnVolverPrincipal" runat="server" OnClick="btnVolverPrincipal_Click" Text="Volver" />
         </div>
     </form>
