@@ -58,5 +58,23 @@ namespace TP2_Grupo18_Programacion
         {
             Response.Redirect("FormPrincipal.aspx");
         }
+
+        protected void btnEnviar_Click(object sender, EventArgs e)
+        {
+            if ((txtNombre.Text.Trim() == ""
+              || txtApellido.Text.Trim() == ""))
+            {
+                lblError.Text = "Los campos 'Nombre' y 'Apellido' son obligatorios.";
+                return;
+            }
+
+            if (txtNombre.Text.Any(NoEsLetra) || txtApellido.Text.Any(NoEsLetra))
+            {
+                lblError.Text = "Los campos deben contener solo letras.";
+                return;
+            }
+
+            Server.Transfer("ejercicio2_b.aspx");
+        }
     }
 }

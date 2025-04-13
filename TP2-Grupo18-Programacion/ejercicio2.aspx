@@ -28,7 +28,7 @@
             <br />
             <br />
             <br />
-            <asp:Button ID="btnEnviar" runat="server" Text="Ver resumen" />
+            <asp:Button ID="btnEnviar" runat="server" Text="Ver resumen" OnClick="btnEnviar_Click" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblError" runat="server"></asp:Label>
             <br />
