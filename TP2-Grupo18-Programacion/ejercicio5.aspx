@@ -17,9 +17,14 @@
             </asp:DropDownList>
             <br />
             <br />
+            Seleccione los accesorios:<asp:CheckBoxList ID="cblAccesorios" runat="server">
+            </asp:CheckBoxList>
+            <br />
+            <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" />
             <br />
             <br />
             <br />
+            <asp:Label ID="lblPrecio" runat="server"></asp:Label>
             <br />
             <br />
             <br />
