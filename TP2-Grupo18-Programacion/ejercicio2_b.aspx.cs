@@ -26,6 +26,26 @@ namespace TP2_Grupo18_Programacion
             zona = ddlzona.SelectedValue;
             lblZona.Text = zona;
 
+            string temas = "";
+            CheckBoxList cbltemas = (CheckBoxList)PreviousPage.FindControl("cblTemas");
+
+            foreach (ListItem item in cbltemas.Items)
+            {
+                if (item.Selected)
+                {
+                    temas += "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" + item.Text + "<br>";
+                }
+            }
+
+            if (temas.Length > 0)
+            {
+                lblTemas.Text = temas;
+            }
+            else
+            {
+                lblTemas.Text = "No se seleccionaron temas";
+            }
+
         }
         protected void btnVolverEj2_Click(object sender, EventArgs e)
         {
