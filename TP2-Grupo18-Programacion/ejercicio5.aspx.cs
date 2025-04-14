@@ -17,6 +17,27 @@ namespace TP2_Grupo18_Programacion
                 ddlMemoria.Items.Add(new ListItem("2GB", "200"));
                 ddlMemoria.Items.Add(new ListItem("4GB", "375"));
                 ddlMemoria.Items.Add(new ListItem("6GB", "500"));
+
+                //CBL
+                cblAccesorios.Items.Add(new ListItem("Monitor LCD", "2000,50"));
+                cblAccesorios.Items.Add(new ListItem("HD 500GB", "550,50"));
+                cblAccesorios.Items.Add(new ListItem("Grabador DVD", "1200"));
+
+
+            }
+        }
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
+        {
+            double memoriaSeleccionada = double.Parse(ddlMemoria.SelectedValue);
+            double totalAccesorios = 0;
+
+            foreach (ListItem item in cblAccesorios.Items)
+            {
+                if (item.Selected)
+                {
+                    totalAccesorios += double.Parse(item.Value);
+                }
             }
         }
 
