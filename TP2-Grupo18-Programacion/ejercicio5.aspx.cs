@@ -30,7 +30,7 @@ namespace TP2_Grupo18_Programacion
             Response.Redirect("FormPrincipal.aspx");
         }
 
-        protected void btnCalcular_Click(object sender, EventArgs e)
+        protected void btnCalcularPrecio_Click(object sender, EventArgs e)
         {
             double memoriaSeleccionada = double.Parse(ddlMemoria.SelectedValue);
             double totalAccesorios = 0;
@@ -42,6 +42,10 @@ namespace TP2_Grupo18_Programacion
                     totalAccesorios += double.Parse(item.Value);
                 }
             }
+            lblPrecio.Text = "El Precio final es de " + (totalAccesorios + memoriaSeleccionada).ToString("F2") + "$";
         }
+
+        
+
         }
 }

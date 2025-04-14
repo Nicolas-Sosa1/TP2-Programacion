@@ -20,7 +20,7 @@
             Seleccione los accesorios:<asp:CheckBoxList ID="cblAccesorios" runat="server">
             </asp:CheckBoxList>
             <br />
-            <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" />
+            <asp:Button ID="btnCalcularPrecio" runat="server" Text="Calcular Precio" OnClick="btnCalcularPrecio_Click" />
             <br />
             <br />
             <br />
