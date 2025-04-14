@@ -18,5 +18,17 @@ namespace TP2_Grupo18_Programacion
         {
             Response.Redirect("FormPrincipal.aspx");
         }
+
+        protected void btnValidar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text.ToLower() == "claudio" && txtClave.Text.ToLower() == "casas")
+            {
+                Server.Transfer("ejercicio4-LogInSucceeded.aspx");
+            }
+            else
+            {
+                Server.Transfer("ejercicio4-LoginFail.aspx");
+            }
+        }
     }
 }

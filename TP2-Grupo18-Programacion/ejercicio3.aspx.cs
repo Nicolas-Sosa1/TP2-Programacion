@@ -23,5 +23,12 @@ namespace TP2_Grupo18_Programacion
         {
             lblTexto.ForeColor = System.Drawing.Color.Red;
         }
+
+        protected void lnAzul_Click(object sender, EventArgs e)
+        {
+            lblTexto.ForeColor = System.Drawing.Color.Blue;
+        }
+
+        
     }
 }

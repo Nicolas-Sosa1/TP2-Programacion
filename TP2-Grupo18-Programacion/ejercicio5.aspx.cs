@@ -29,5 +29,19 @@ namespace TP2_Grupo18_Programacion
         {
             Response.Redirect("FormPrincipal.aspx");
         }
-    }
+
+        protected void btnCalcular_Click(object sender, EventArgs e)
+        {
+            double memoriaSeleccionada = double.Parse(ddlMemoria.SelectedValue);
+            double totalAccesorios = 0;
+
+            foreach (ListItem item in cblAccesorios.Items)
+            {
+                if (item.Selected)
+                {
+                    totalAccesorios += double.Parse(item.Value);
+                }
+            }
+        }
+        }
 }

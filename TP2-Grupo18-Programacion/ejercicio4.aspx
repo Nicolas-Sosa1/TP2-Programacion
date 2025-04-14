@@ -17,7 +17,7 @@
             <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
             <br />
             <br />
-            <asp:Button ID="btnValidar" runat="server" Text="Validar" />
+            <asp:Button ID="btnValidar" runat="server" OnClick="btnValidar_Click" Text="Validar" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblError" runat="server"></asp:Label>
             <br /><br />
