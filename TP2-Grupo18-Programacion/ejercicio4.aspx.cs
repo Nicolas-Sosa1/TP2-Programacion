@@ -21,14 +21,32 @@ namespace TP2_Grupo18_Programacion
 
         protected void btnValidar_Click(object sender, EventArgs e)
         {
-            if (txtUsuario.Text.ToLower() == "claudio" && txtClave.Text.ToLower() == "casas")
+            if (txtUsuario.Text == "" && txtClave.Text == "")
             {
-                Server.Transfer("ejercicio4-LogInSucceeded.aspx");
+                lblError.Text = "Debe ingresar un Usuario y una Clave";
+            }
+            else if (txtUsuario.Text != "" && txtClave.Text == "")
+            {
+                lblError.Text = "Debe ingresar una Clave";
+            }
+            else if (txtUsuario.Text == "" && txtClave.Text != "")
+            {
+                lblError.Text = "Debe ingresar un Usuario";
             }
             else
             {
-                Server.Transfer("ejercicio4-LoginFail.aspx");
+                
+                if (txtUsuario.Text.ToLower() == "claudio" && txtClave.Text.ToLower() == "casas")
+                {
+                    Server.Transfer("ejercicio4-LogInSucceeded.aspx");
+                }
+                else
+                {
+                    Server.Transfer("ejercicio4-LoginFail.aspx");
+                }
             }
+
+
         }
     }
 }

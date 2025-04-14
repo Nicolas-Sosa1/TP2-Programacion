@@ -47,9 +47,6 @@ namespace TP2_Grupo18_Programacion
             }
 
         }
-        protected void btnVolverEj2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("ejercicio2.aspx");
-        }
+       
     }
 }  

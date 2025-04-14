@@ -26,7 +26,6 @@
             Los temas elegidos son:<br />
             <asp:Label ID="lblTemas" runat="server"></asp:Label>
             <br />
-            <asp:Button ID="btnVolverEj2" runat="server" OnClick="btnVolverEj2_Click" Text="Volver" />
         </div>
     </form>
 </body>

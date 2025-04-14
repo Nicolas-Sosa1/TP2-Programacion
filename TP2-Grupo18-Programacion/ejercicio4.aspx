@@ -14,7 +14,7 @@
             <asp:TextBox ID="txtUsuario" runat="server"></asp:TextBox>
             <br /><br />
             Clave:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="txtClave" runat="server"></asp:TextBox>
+            <asp:TextBox ID="txtClave" runat="server" TextMode="Password"></asp:TextBox>
             <br />
             <br />
             <asp:Button ID="btnValidar" runat="server" OnClick="btnValidar_Click" Text="Validar" />

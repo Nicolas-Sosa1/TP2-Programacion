@@ -54,11 +54,7 @@ namespace TP2_Grupo18_Programacion
         }
 
 
-        protected void btnVolverPrincipal_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("FormPrincipal.aspx");
-        }
-
+      
         protected void btnEnviar_Click(object sender, EventArgs e)
         {
             if ((txtNombre.Text.Trim() == ""
@@ -78,6 +74,11 @@ namespace TP2_Grupo18_Programacion
             Session["Apellido"] = txtApellido.Text;
 
             Server.Transfer("ejercicio2_b.aspx");
+        }
+
+        protected void btnVolverPrincipal_Click1(object sender, EventArgs e)
+        {
+            Response.Redirect("FormPrincipal.aspx");
         }
     }
 }
