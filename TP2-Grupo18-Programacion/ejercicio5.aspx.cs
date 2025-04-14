@@ -19,8 +19,8 @@ namespace TP2_Grupo18_Programacion
                 ddlMemoria.Items.Add(new ListItem("6GB", "500"));
 
                 //CBL
-                cblAccesorios.Items.Add(new ListItem("Monitor LCD", "2000,50"));
-                cblAccesorios.Items.Add(new ListItem("HD 500GB", "550,50"));
+                cblAccesorios.Items.Add(new ListItem("Monitor LCD", "2000.50"));
+                cblAccesorios.Items.Add(new ListItem("HD 500GB", "550.50"));
                 cblAccesorios.Items.Add(new ListItem("Grabador DVD", "1200"));
             }
         }
@@ -43,9 +43,7 @@ namespace TP2_Grupo18_Programacion
                 }
             }
             lblPrecio.Text = "El Precio final es de " + (totalAccesorios + memoriaSeleccionada).ToString("F2") + "$";
-        }
+        }    
 
-        
-
-        }
+    }
 }
