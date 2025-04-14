@@ -17,6 +17,9 @@
             <br />
             <br />
             Apellido:&nbsp; <asp:Label ID="lblApellido" runat="server"></asp:Label>
+            <br />
+            <br />
+            <asp:Button ID="btnVolverEj2" runat="server" OnClick="btnVolverEj2_Click" Text="Volver" />
         </div>
     </form>
 </body>

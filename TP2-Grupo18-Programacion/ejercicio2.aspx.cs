@@ -74,6 +74,9 @@ namespace TP2_Grupo18_Programacion
                 return;
             }
 
+            Session["Nombre"] = txtNombre.Text;
+            Session["Apellido"] = txtApellido.Text;
+
             Server.Transfer("ejercicio2_b.aspx");
         }
     }
