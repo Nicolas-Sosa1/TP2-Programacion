@@ -20,6 +20,12 @@ namespace TP2_Grupo18_Programacion
             apellido = Request["txtApellido"].ToString();
             lblApellido.Text = apellido;
 
+            
+            string zona;
+            DropDownList ddlzona = (DropDownList)PreviousPage.FindControl("ddlCiudad");
+            zona = ddlzona.SelectedValue;
+            lblZona.Text = zona;
+
         }
         protected void btnVolverEj2_Click(object sender, EventArgs e)
         {

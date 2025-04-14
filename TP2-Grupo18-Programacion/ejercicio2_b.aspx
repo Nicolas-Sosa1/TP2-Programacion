@@ -19,6 +19,9 @@
             Apellido:&nbsp; <asp:Label ID="lblApellido" runat="server"></asp:Label>
             <br />
             <br />
+            Zona:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:Label ID="lblZona" runat="server"></asp:Label>
+            <br />
             <asp:Button ID="btnVolverEj2" runat="server" OnClick="btnVolverEj2_Click" Text="Volver" />
         </div>
     </form>
